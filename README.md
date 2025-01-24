@@ -16,6 +16,8 @@ It will tell you if current scaling is not 100% or 125% so you can adjust in the
 
 You can also adjust the number of tabs or open and closing delay if your Windows Version is different(current setting is for Windows 11 Pro 24H2).
 
+You can also Auto Start it by pasting the file or it's shortcut in: C:\Users\(UserName)\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
+
 ## Update
 
 Some things which are changed are:
