@@ -1,6 +1,6 @@
 # Monitor Scaling(DPI) HotKey AHK v2
 
-Press delete key to change Monitor Scaling from 100% to 125% and from 125% to 100%.
+Press Pause/Break key to change Monitor Scaling from 100% to 125% and from 125% to 100%.
 
 Created so don't have to manually change the scaling after connecting to an extended display every time.
 
