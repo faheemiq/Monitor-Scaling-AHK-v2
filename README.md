@@ -10,9 +10,9 @@ Copied from this article: [Hotkey For Scaling In Windows 10?](https://www.tenfor
 
 Please change the current monitor registry path
   1. Open Registry Editor and in the URL bar paste: Computer\HKEY_CURRENT_USER\Control Panel\Desktop\PerMonitorSettings\
-  2. Copy the monitor ID(you can look at the method to find your Monitor down below) whose scaling you wish to change on HotKey press and replace it with the previous one in the Monitor Scaling Fix.ahk file.
+  2. Copy the Monitor ID(you can look at the method below to find your monitor) whose scaling you wish to change on HotKey press and replace it with the previous one in the file.
   
-It will tell you if current scaling is not 100% or 125% which you can adjust in the Monitor Scaling Fix.ahk file.
+It will tell you if current scaling is not 100% or 125% so you can adjust in the file.
 
 You can also adjust the number of tabs or open and closing delay if your Windows Version is different(current setting is for Windows 11 Pro 24H2).
 
