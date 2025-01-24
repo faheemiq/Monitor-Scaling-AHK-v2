@@ -7,7 +7,7 @@ DetectHiddenWindows true
 SetRegView 64
 ; Sets the registry view used by RegRead, allowing it in a 32-bit script to access the 64-bit registry view and vice versa.
 
-Delete:: ; the toggle key
+Pause:: ; the toggle key
 {
     RunWait(A_ComSpec . " /c " . A_WinDir . "\System32\DpiScaling.exe") ; launch Settings -> Display
     CurrentDPI := RegRead("HKEY_CURRENT_USER\Control Panel\Desktop\PerMonitorSettings\CMN153B0_2A_07E4_21^007854C671615D991A7F59821F1C5461", "DpiValue") ; Determine the current scaling setting.
